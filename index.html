@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Página Incrível</title>
+        <!-- Links para folhas de estilo scripts vão aqui -->
+    </head>
+    <body>
+        <header>
+            <h1>Bem-vindo à Minha Página!</h1>
+            <p>Explore o incrível mundo que criamos para você.</p>
+        </header>
+        <main>
+            <h1>Bem-vindo à Minha Aplicação Web</h1>
+            <p>Explore um mundo de possibilidades incríveis!</p>
+            <a href="/pagina-inicial">Página Inicial</a>
+            <a href="/sobre">Sobre Nós</a>
+            <a href="/contato">Contato</a>
+            <img src="Lenon.jpeg" alt="Lenon">
+            <form action="/processar-login" method="post">
+                <label for="usuario">Usuário: </label>
+                <input type="text" id="usuario" name="usuario" required>
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" name="senha" required>
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                <button type="submit">Entrar</button>
+                <input type="reset" value="Limpar">
+
+                <input type="checkbox" id="receber-noticias" name="receber-noticias" checked> 
+                <label for="receber-noticias">Receber Notícias</label>
+
+                <input type="radio" id="masculino" name="genero" value="masculino"> 
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="feminino" name="genero" value="feminino"> 
+                <label for="feminino">Feminino</label
+
+                    <label for="pais">Selecione seu país: </label>
+                    <select id="pais" name="pais">
+                    <option value="brasil">Brasil</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="eua">Estados Unidos</option>
+                    </select>
+            </form>
+            <ul>
+                <li><a href="/produtos">Produtos</a></li>
+                <li><a href="/servicos">Serviços</a></li>
+                <li><a href="/suporte">Suporte</a></li>
+            </ul>
+            <p><strong>Importante:</strong> Preencha todos os campos
+                obrigatórios.</p>
+            <p><em>Lembre-se de manter sua senha em segredo.</em></p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; 2024 Minha Página Incrível. Todos os direitos
+                reservados</p>
+        </footer>
+        <p>Este é um texto <strong>importante</strong> e <em>ênfase</em>.</p>
+        <p>Esta é uma linha.<br>Esta é outra linha.</p>
+        <p>Esta é a <mark>parte destacada</mark> do texto.</p>
+        <hr>
+        <p><small>Texto menor</small></p>
+        <p><big>Texto maior</big></p>
+        <blockquote>
+            <p>"A vida é o que acontece enquanto você está ocupado fazendo outros planos."</p>
+            <cite>John Lennon</cite>
+        </blockquote>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>30</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>Portugal</td>
+            </tr>
+        </table>
+        <tr>
+            <td><a href="/perfil/carlos">Carlos</a></td>
+            <td>30</td>
+            <td>Brasil</td>
+        </tr>
+    </body>
+</html>
